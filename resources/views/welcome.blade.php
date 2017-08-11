@@ -12,17 +12,19 @@
 
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/player.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
+    <!--
         <style>
             html, body {
-                background-color: #fff;
-                background-image:url('/images/2.png');
-                background-size: cover;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+            }
+
+            h1{
+              color: white;
             }
 
             .full-height {
@@ -82,8 +84,10 @@
               max-width: 100;
             }
             .modal-content{
-              background-image: url("/images/1.jpg");
+              background-image: url("/images/source.gif");
               background-size: contain;
+              background-repeat: no-repeat;
+
             }
             video{
               opacity: 0.5;
@@ -100,15 +104,26 @@
               background-color: black;
               color: green;
             }
+            #main{
+              height: 200px;
+            }
+
         </style>
+      -->
     </head>
     <body>
-      <nav class="navbar navbar-default navbar-static-top navbar-inverse">
+      <audio controls autoplay="true">
+		      <source src="http://67.212.189.122:8008/stream" type="audio/mpeg" crossOrigin="use-credentials"/>
+      </audio>
+      <canvas id="canvas"></canvas>
+      <div id="fps"></div>
+      <!--
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
           <div class="container">
-            <!--Branding Image-->
+            <!Branding Image>
               <div class="mainbar">
                 <a class="navbar-brand" href="#djs">DJs</a>
-                <a class="navbar-brand" href="#scheule">Schedule</a>
+                <a class="navbar-brand" href="#schedule">Schedule</a>
                 <a class="navbar-brand" href="#public_blog">Blog</a>
                 <a class="navbar-brand" href="#contact">Contact</a>
               </div>
@@ -129,7 +144,11 @@
         <button type="button" class="btn btn-primary navbar-inverse btn-md btn-block" data-toggle="modal" data-target="#myModalradio">
           Radiate Radio</button>
       </nav>
-      <br>
+      <canvas id="canvas"></canvas>
+      <div id="fps"></div>
+      <!
+      <div class="container" id="main">
+      </div>
       <br>
       <br>
       <br>
@@ -137,10 +156,45 @@
       <br>
       <div class="content">
       </div>
-      <div class="container" align="center">
-        <div class="row">
+      <div class = "container">
+        <div id="djs">
+          <h1>DJS</h1>
+          <div class="row">
+            <div class="col-4-md">
+              <img src="/images/dj1.jpg" height="100" width="100">
+                <p>Peter</p>
+              </img>
+            </div>
+          </div>
         </div>
       </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container" id="schedule">
+        <h1>SCHEDULE</h1>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container" id="public_blog">
+        <h1>BLOG</h1>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container" id="contact">
+        <h1>CONTACT</h1>
+      </div>
+    -->
+
+<!--
       <footer>
         <nav class="navbar-inverse navbar-default navbar-fixed-bottom">
           <div class="container" align="center">
@@ -152,9 +206,9 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div align="center">
-              <video controls autoplay="true" name="media">
-                <source src="http://67.212.189.122:8008/stream" type="audio/mpeg">
-              </video>
+              <audio controls autoplay="true">
+                  <source id="stream" src="http://67.212.189.122:8008/stream" type="audio/mpeg" />
+              </audio>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
@@ -162,6 +216,9 @@
           </div>
         </div>
       </div>
+    -->
       <script src="{{ asset('js/app.js') }}"></script>
+      <script src="{{ asset('js/dat.gui.min.js') }}"></script>
+      <script src="{{ asset('js/visualize.js') }}"></script>
     </body>
 </html>
