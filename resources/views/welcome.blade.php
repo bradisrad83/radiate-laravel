@@ -218,6 +218,8 @@
       </div>
     -->
       <script src="{{ asset('js/app.js') }}"></script>
+      <script src="{{ asset('js/dat.gui.js') }}"></script>
+      <script src="{{ asset('js/dat.gui.js.map' )}}"></script>
       <script src="{{ asset('js/dat.gui.min.js') }}"></script>
       <script src="{{ asset('js/visualize.js') }}"></script>
     </body>
