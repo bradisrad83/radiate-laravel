@@ -157,7 +157,7 @@
 			lineWidth: 0.1,
 			size: 1.1,
 			killAfter: 190,
-			hue: 187,
+			hue: 100,
 			saturation: 100,
 			brightness: 30,
 			backgroundSaturation: 17,

@@ -1,5 +1,82 @@
-body {
-  background: black;
+html, body {
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+  color: white;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: green;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.links>a:hover{
+  color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: green;
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+h5{
+  color: green;
+}
+.mainbar{
+  align-content: center;
+}
+.radiate{
+  max-width: 100;
+}
+.btn{
+  color:green;
+}
+.btn:hover{
+  background-color:#fff;
+  color:green;
+}
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: black;
+  color: green;
 }
 canvas {
   position: absolute;
@@ -11,17 +88,18 @@ canvas {
 audio {
   position: absolute;
   z-index: 2;
-  bottom: 0;
+  bottom: 40px;
   left: 0;
 }
-#fps {
+footer{
   position: absolute;
-  bottom: 5px;
-  right: 5px;
-  font-family: sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #fff;
-  color: rgba(255, 255, 255, 0.5);
-  z-index: 2;
+  z-index: 0;
+  bottom: 500px;
+  left: 0;
+}
+.navbar-inverse{
+  z-index: 1;
+}
+.mainbar{
+  padding: 10px 10px 10px 10px;
 }
