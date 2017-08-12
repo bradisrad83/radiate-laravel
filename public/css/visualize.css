@@ -98,7 +98,8 @@ footer{
   left: 0;
 }
 .navbar-inverse{
-  z-index: 1;
+  background-color: black;
+  z-index: 1;  
 }
 .mainbar{
   padding: 10px 10px 10px 10px;
