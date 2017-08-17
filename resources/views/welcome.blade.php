@@ -23,7 +23,7 @@
           <div class="container">
             <!--Branding Image-->
               <div class="mainbar">
-                <a class="navbar-brand" href="#djs">DJs</a>
+                <a class="navbar-brand djs" href="#djs">DJs</a>
                 <a class="navbar-brand" href="#schedule">Schedule</a>
                 <a class="navbar-brand" href="#public_blog">Blog</a>
                 <a class="navbar-brand" href="#contact">Contact</a>
@@ -33,9 +33,9 @@
               @if (Route::has('login'))
                 <div class="top-right links pull-left">
                   @if (Auth::check())
-                    <a href="{{ url('/home') }}">Main</a>
+                    <a href="{{ url('/home') }}">Admin</a>
                   @else
-                    <a href="{{ url('/login') }}">Admin</a>
+                    <a href="{{ url('/login') }}">Login</a>
                   @endif
                 </div>
               @endif
@@ -47,55 +47,9 @@
       </nav>
       <canvas id="canvas"></canvas>
       <div id="fps"></div>
-      <!--
-      <div class="container" id="main">
+      <div class="container main">
+          <p>THIS IS A TEST</p>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="content">
-      </div>
-      <div class = "container">
-        <div id="djs">
-          <h1>DJS</h1>
-          <div class="row">
-            <div class="col-4-md">
-              <img src="/images/dj1.jpg" height="100" width="100">
-                <p>Peter</p>
-              </img>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="container" id="schedule">
-        <h1>SCHEDULE</h1>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="container" id="public_blog">
-        <h1>BLOG</h1>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="container" id="contact">
-        <h1>CONTACT</h1>
-      </div>
-    -->
-
-
       <footer>
         <nav class="navbar-inverse navbar-default navbar-fixed-bottom">
           <div class="container" align="center">
@@ -122,5 +76,6 @@
       <script src="{{ asset('js/dat.gui.min.js') }}"></script>
       <script src="{{ asset('js/app.js') }}"></script>
       <script src="{{ asset('js/visualize.js') }}"></script>
+      <script src="{{ asset('js/main.js') }}"></script>
     </body>
 </html>
