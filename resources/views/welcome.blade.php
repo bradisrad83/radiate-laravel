@@ -73,9 +73,14 @@
         </div>
       </div>
 
+      <script src="{{ asset('js/jquery.min.js') }}"></script>
       <script src="{{ asset('js/dat.gui.min.js') }}"></script>
       <script src="{{ asset('js/app.js') }}"></script>
       <script src="{{ asset('js/visualize.js') }}"></script>
+      <script src="{{ asset('js/ondemand.js') }}"></script>
+      <script src="{{ asset('js/player.js') }}"></script>
+      <script src="{{ asset('js/request.js') }}"></script>
+      <script src="{{ asset('js/streaminfo.js') }}"></script>
       <script src="{{ asset('js/main.js') }}"></script>
     </body>
 </html>
