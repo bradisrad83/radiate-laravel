@@ -62,6 +62,9 @@
                 <audio controls autoplay="true">
                     <source src="http://67.212.189.122:8008/stream" type="audio/mpeg" crossOrigin="use-credentials"/>
                 </audio>
+                <div style="white-space: nowrap; overflow: hidden; margin-right: 8px">
+			              Now playing: <a href="/tunein/pcasti00.pls" id="cc_strinfo_summary_pcasti00" class="cc_streaminfo" style="text-overflow: ellipsis">Loading...</a> (<span id="cc_strinfo_server_pcasti00" class="cc_streaminfo"></span>)<br />
+                </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
