@@ -23,10 +23,10 @@
           <div class="container">
             <!--Branding Image-->
               <div class="mainbar">
-                <a class="navbar-brand djs" href="#djs">DJs</a>
-                <a class="navbar-brand" href="#schedule">Schedule</a>
-                <a class="navbar-brand" href="#public_blog">Blog</a>
-                <a class="navbar-brand" href="#contact">Contact</a>
+                <a class="navbar-brand djs">DJs</a>
+                <a class="navbar-brand schedule">Schedule</a>
+                <a class="navbar-brand public_blog">Blog</a>
+                <a class="navbar-brand contact">Contact</a>
               </div>
           <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <div class="flex-center position-ref">
@@ -47,9 +47,6 @@
       </nav>
       <canvas id="canvas"></canvas>
       <div id="fps"></div>
-      <div class="container main">
-          <p>THIS IS A TEST</p>
-      </div>
       <footer>
         <nav class="navbar-inverse navbar-default navbar-fixed-bottom">
           <div class="container" align="center">
