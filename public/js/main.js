@@ -1,3 +1,16 @@
+var dj = $(".djs");
+var schedule = $(".schedule");
+var public_blog = $(".public_blog");
+var contact = $(".contact");
+
+
+
+
+
+
+
+
+
 $(document).ready(function() {
     console.log("document onload ready function working");
     $(".djs").click(function() {
