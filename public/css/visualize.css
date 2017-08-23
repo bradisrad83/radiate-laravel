@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     color: #636b6f;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -6,8 +7,8 @@ html, body {
     margin: 0;
 }
 
-h1{
-  color: white;
+h1 {
+    color: white;
 }
 
 .full-height {
@@ -38,7 +39,7 @@ h1{
     font-size: 84px;
 }
 
-.links > a {
+.links>a {
     color: green;
     padding: 0 25px;
     font-size: 12px;
@@ -46,61 +47,84 @@ h1{
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
+}
 
+.links>a:hover {
+    color: white;
 }
-.links>a:hover{
-  color: white;
-}
+
 .navbar-inverse .navbar-brand {
     color: green;
 }
+
 .m-b-md {
     margin-bottom: 30px;
 }
-h5{
-  color: green;
+
+h5 {
+    color: green;
 }
-.mainbar{
-  align-content: center;
+
+.mainbar {
+    align-content: center;
 }
-.radiate{
-  max-width: 100;
+
+.radiate {
+    max-width: 100;
 }
-.btn{
-  color:green;
+
+.btn {
+    color: green;
 }
-.btn:hover{
-  background-color:#fff;
-  color:green;
+
+.btn:hover {
+    background-color: #fff;
+    color: green;
 }
-.btn-primary.focus, .btn-primary:focus {
-  color: #fff;
-  background-color: black;
-  color: green;
+
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    background-color: black;
+    color: green;
 }
+
 canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
 audio {
-  position: absolute;
-  z-index: 2;
-  bottom: 40px;
-  left: 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+    left: 0;
 }
-footer{
-  position: absolute;
-  z-index: 0;
-  bottom: 500px;
-  left: 0;
+
+footer {
+    position: absolute;
+    z-index: 0;
+    bottom: 500px;
+    left: 0;
 }
-.navbar-inverse{
-  background-color: black;
-  z-index: 1;
+
+.navbar-inverse {
+    background-color: black;
+    z-index: 1;
 }
-.mainbar{
-  padding: 10px 10px 10px 10px;
+
+.mainbar {
+    padding: 10px 10px 10px 10px;
+}
+
+#djs {
+    position: fixed;
+    top: 15%;
+    max-height: 100%;
+    max-width: 100%;
+    border: 5px solid white;
+    z-index: 2;
 }

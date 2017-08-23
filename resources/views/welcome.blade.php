@@ -47,6 +47,11 @@
       </nav>
       <canvas id="canvas"></canvas>
       <div id="fps"></div>
+      <div class="container">
+        <div id="djs">
+          <h1>TEST</h1>
+        </div>
+      </div>
       <footer>
         <nav class="navbar-inverse navbar-default navbar-fixed-bottom">
           <div class="container" align="center">
