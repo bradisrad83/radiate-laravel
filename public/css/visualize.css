@@ -128,3 +128,30 @@ footer {
     border: 3px solid white;
     z-index: 2;
 }
+
+#contact {
+    position: fixed;
+    top: 100px;
+    bottom: 50px;
+    width: calc(100% - 20%);
+    border: 3px solid purple;
+    z-index: 2;
+}
+
+#schedule {
+    position: fixed;
+    top: 100px;
+    bottom: 50px;
+    width: calc(100% - 20%);
+    border: 3px solid red;
+    z-index: 2;
+}
+
+#public_blog {
+    position: fixed;
+    top: 100px;
+    bottom: 50px;
+    width: calc(100% - 20%);
+    border: 3px solid blue;
+    z-index: 2;
+}

@@ -49,7 +49,18 @@
       <div id="fps"></div>
       <div class="container">
         <div id="djs">
-          <h1>TEST</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div id="schedule">
+        </div>
+      </div>
+      <div class="container">
+        <div id="public_blog">
+        </div>
+      </div>
+      <div class="container">
+        <div id="contact">
         </div>
       </div>
       <footer>
