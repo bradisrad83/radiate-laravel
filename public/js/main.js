@@ -6,10 +6,10 @@ var contact = $("#contact");
 
 //function to slide all divs out of the main box
 var hideDivs = function() {
-    dj.slideToggle(100);
-    schedule.slideToggle(100);
-    public_blog.slideToggle(100);
-    contact.slideToggle(100);
+    dj.fadeOut(1000);
+    schedule.fadeOut(1000);
+    public_blog.fadeOut(1000);
+    contact.fadeOut(1000);
 };
 
 
@@ -20,26 +20,23 @@ var hideDivs = function() {
 
 
 
+
 $(document).ready(function() {
-    console.log("document onload ready function working");
+    hideDivs();
     $(".djs").click(function() {
-        console.log("DJS clicked");
         hideDivs();
-        dj.slideToggle(1000);
+        dj.slideToggle(2000);
     });
     $(".schedule").click(function() {
-        console.log("Schedule clicked");
         hideDivs();
-        schedule.slideToggle(1000);
+        schedule.slideToggle(2000);
     });
     $(".public_blog").click(function() {
-        console.log("Public Blog clicked");
         hideDivs();
-        public_blog.slideToggle(1000);
+        public_blog.slideToggle(2000);
     });
     $(".contact").click(function() {
-        console.log("Contact clicked");
         hideDivs();
-
+        contact.slideToggle(2000);
     });
 });
