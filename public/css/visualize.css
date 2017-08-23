@@ -122,9 +122,9 @@ footer {
 
 #djs {
     position: fixed;
-    top: 15%;
-    max-height: 100%;
-    max-width: 100%;
-    border: 5px solid white;
+    top: 100px;
+    bottom: 50px;
+    width: calc(100% - 20%);
+    border: 3px solid white;
     z-index: 2;
 }
