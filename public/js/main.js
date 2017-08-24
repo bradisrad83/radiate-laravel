@@ -22,7 +22,10 @@ var hideDivs = function() {
 
 
 $(document).ready(function() {
-    hideDivs();
+    dj.hide();
+    schedule.hide();
+    public_blog.hide();
+    contact.hide();
     $(".djs").click(function() {
         hideDivs();
         dj.slideToggle(2000);

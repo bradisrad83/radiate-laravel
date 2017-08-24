@@ -124,9 +124,10 @@ footer {
     position: fixed;
     top: 100px;
     bottom: 50px;
-    width: calc(100% - 20%);
-    border: 3px solid white;
     z-index: 2;
+    width: calc(100% - 20%);
+    opacity: 0.6;
+    overflow-y: scroll;
 }
 
 #contact {
@@ -134,7 +135,7 @@ footer {
     top: 100px;
     bottom: 50px;
     width: calc(100% - 20%);
-    border: 3px solid purple;
+    border: 3px solid white;
     z-index: 2;
 }
 
@@ -143,8 +144,9 @@ footer {
     top: 100px;
     bottom: 50px;
     width: calc(100% - 20%);
-    border: 3px solid red;
+    border: 3px solid white;
     z-index: 2;
+    overflow-y: scroll;
 }
 
 #public_blog {
@@ -152,6 +154,6 @@ footer {
     top: 100px;
     bottom: 50px;
     width: calc(100% - 20%);
-    border: 3px solid blue;
+    border: 3px solid white;
     z-index: 2;
 }
