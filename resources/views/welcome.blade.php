@@ -12,6 +12,8 @@
 
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/fullcalendar.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/fullcalendar.print.min.css') }}" rel="stylesheet">
         <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
 
     </head>
@@ -85,104 +87,168 @@
       <div class="container">
         <div id="schedule">
           <div class="row"> 
-            <div class = "col-sm-1"> 
-              <h4>Time(EST)</h4> 
-                <p>12:00am</p> 
-                <p>12:30am</p>
-                <p>1:00am</p>
-                <p>1:30am</p>
-                <p>2:00am</p>
-                <p>2:30am</p>
-                <p>3:00am</p>
-                <p>3:30am</p>
-                <p>4:00am</p>
-                <p>5:00am</p>
-                <p>6:00am</p>
-                <p>6:30am</p>
-                <p>7:00am</p>
-                <p>7:30am</p>
-                <p>8:00am</p>
-                <p>8:30am</p>
-                <p>9:00am</p>
-                <p>9:30am</p>
-                <p>10:00am</p>
-                <p>10:30am</p>
-                <p>11:00am</p>
-                <p>11:30am</p>
-                <p>12:00pm</p>
-                <p>12:30pm</p>
-                <p>1:00pm</p>
-                <p>1:30pm</p>
-                <p>2:00pm</p>
-                <p>2:30pm</p>
-                <p>3:00pm</p>
-                <p>3:30pm</p>
-                <p>4:00pm</p>
-                <p>5:00pm</p>
-                <p>6:00pm</p>
-                <p>6:30pm</p>
-                <p>7:00pm</p>
-                <p>7:30pm</p>
-                <p>8:00pm</p>
-                <p>8:30pm</p>
-                <p>9:00pm</p>
-                <p>9:30pm</p>
-                <p>10:00pm</p>
-                <p>10:30pm</p>
-                <p>11:00pm</p>
-                <p>11:30pm</p>
-            </div>  
-            <div class="col-sm-1">  
-              <h4>Monday</h4> 
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>            
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p>The Vundacast</p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-            </div>
+            <div class = "col-sm-2"> 
+              <h4 class="sunday">Sunday</h4>
+              <h4 class="monday">Monday</h4>
+              <h4 class="tuesday">Tuesday</h4>
+              <h4 class="wednesday">Wednesday</h4> 
+              <h4 class="thursday">Thursday</h4>
+              <h4 class="friday">Friday</h4>
+              <h4 class="saturday">Saturday</h4>
+            </div> 
+           <div class="col-sm-2" id="times"> 
+              <p>Time(EST)</p>
+              <p>12:00am</p>
+              <p>12:30am</p>
+              <p>1:00am</p>
+              <p>1:30am</p>
+              <p>2:00am</p>
+              <p>2:30am</p>
+              <p>3:00am</p>
+              <p>3:30am</p>
+              <p>4:00am</p>
+              <p>4:30am</p>
+              <p>5:00am</p>
+              <p>5:30am</p>
+              <p>6:00am</p>
+              <p>6:30am</p>
+              <p>7:00am</p>
+              <p>7:30am</p>
+              <p>8:00am</p>
+              <p>8:30am</p>
+              <p>9:00am</p>
+              <p>9:30am</p>
+              <p>10:00am</p>
+              <p>10:30am</p>
+              <p>11:00am</p>
+              <p>11:30am</p>
+              <p>12:00pm</p>
+              <p>12:30pm</p>
+              <p>1:00pm</p>
+              <p>1:30pm</p>
+              <p>2:00pm</p>
+              <p>2:30pm</p>
+              <p>3:00pm</p>
+              <p>3:30pm</p>
+              <p>4:00pm</p>
+              <p>4:30pm</p>
+              <p>5:00pm</p>
+              <p>5:30pm</p>
+              <p>6:00pm</p>
+              <p>6:30pm</p>
+              <p>7:00pm</p>
+              <p>7:30pm</p>
+              <p>8:00pm</p>
+              <p>8:30pm</p>
+              <p>9:00pm</p>
+              <p>9:30pm</p>
+              <p>10:00pm</p>
+              <p>10:30pm</p>
+              <p>11:00pm</p>
+              <p>11:30pm</p>
+          </div>
+            <div class="col-sm-8" id="sunday"> 
+              <p><strong>Sunday</strong></p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>CritFail (Gaming)</p>
+              <p>CritFail (Gaming)</p>
+              <p>CritFail (Gaming)</p>
+              <p>CritFail (Gaming)</p>
+              <p>CritFail (Gaming)</p>
+              <p>CritFail (Gaming)</p>
+              <p>CritFail (Gaming)</p>
+              <p>CritFail (Gaming)</p>
+          </div>
+          <div class="col-sm-8" id="monday"> 
+              <p><strong>Monday</strong></p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>The Vundacast (Pop Culture Talk Show)</p>
+              <p>The Vundacast (Pop Culture Talk Show)</p>
+              <p>The Vundacast (Pop Culture Talk Show)</p>
+              <p>The Vundacast (Pop Culture Talk Show)</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
+              <p>Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
+              <p>-</p>
+              <p>-</p>
+              <p>MadSounds (Reggae/Dancehall)</p>
+              <p>MadSounds (Reggae/Dancehall)</p>
+          </div>
         </div> 
       </div>
       <div class="container">
@@ -227,6 +293,8 @@
       <script src="{{ asset('js/player.js') }}"></script>
       <script src="{{ asset('js/request.js') }}"></script>
       <script src="{{ asset('js/streaminfo.js') }}"></script>
+      <script src="{{ asset('js/moment.min.js') }}"></script>
+      <script src="{{ asset('js/fullcalendar.min.js') }}"></script>
       <script src="{{ asset('js/main.js') }}"></script>
     </body>
 </html>
