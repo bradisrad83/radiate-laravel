@@ -161,3 +161,11 @@ img {
     border: 1px solid white;
     ;
 }
+
+.col-sm-4:hover {
+    transform: scale(1.2);
+}
+
+img:hover {
+    border: 3px solid green;
+}

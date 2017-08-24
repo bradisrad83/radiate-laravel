@@ -49,6 +49,8 @@
       <div id="fps"></div>
       <div class="container">
         <div id="djs" align="center">
+      <br> 
+      <br> 
           <div class="row">
             <div class="col-sm-4"> 
               <img src ="/images/dj1.jpg" height="200" width="200" id="dj1"></img> 
