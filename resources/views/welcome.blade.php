@@ -56,21 +56,26 @@
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj2.jpg" height="200" width="200"></img> 
+              <h1>DJ</h1>
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj3.jpg" height="200" width="200"></img> 
+              <h1>DJ</h1>
             </div> 
           </div>
            <br>
           <div class="row">
             <div class="col-sm-4"> 
               <img src ="/images/dj4.jpg" height="200" width="200"></img> 
+              <h1>DJ</h1>
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj5.jpg" height="200" width="200"></img> 
+              <h1>DJ</h1>
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj6.jpg" height="200" width="200"></img> 
+              <h1>DJ</h1>
             </div> 
           </div>
         </div>
@@ -78,7 +83,7 @@
       <div class="container">
         <div id="schedule">
           <div class="row"> 
-            <div class = "col-md-1"> 
+            <div class = "col-sm-1"> 
               <h4>Time(EST)</h4> 
                 <p>12:00am</p> 
                 <p>12:30am</p>
@@ -124,7 +129,58 @@
                 <p>10:30pm</p>
                 <p>11:00pm</p>
                 <p>11:30pm</p>
-            </div>                
+            </div>  
+            <div class="col-sm-1">  
+              <h4>Monday</h4> 
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>            
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p>The Vundacast</p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
         </div> 
       </div>
       <div class="container">

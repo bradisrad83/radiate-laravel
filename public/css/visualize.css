@@ -126,7 +126,7 @@ footer {
     bottom: 50px;
     z-index: 2;
     width: calc(100% - 20%);
-    opacity: 0.6;
+    opacity: 0.7;
     overflow-y: scroll;
 }
 
@@ -144,7 +144,6 @@ footer {
     top: 100px;
     bottom: 50px;
     width: calc(100% - 20%);
-    border: 3px solid white;
     z-index: 2;
     overflow-y: scroll;
 }
@@ -156,4 +155,9 @@ footer {
     width: calc(100% - 20%);
     border: 3px solid white;
     z-index: 2;
+}
+
+img {
+    border: 1px solid white;
+    ;
 }
