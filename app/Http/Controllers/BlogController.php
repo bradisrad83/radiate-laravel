@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App/User;
+use App/Blog;
+
 class BlogController extends Controller
 {
     
@@ -16,9 +19,11 @@ class BlogController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request, User $user)
     {
         //
+        $blogs = DB::select('select * from blogs')->get();
+        return view('welcome', ['blogs'=>$blogs]);
     }
 
     /**
