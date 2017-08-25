@@ -13,6 +13,8 @@ var thursday = $("#thursday");
 var friday = $("#friday");
 var saturday = $("#saturday");
 var times = $("#times");
+var visualizer = $("#canvas");
+var counter = 2;
 
 //function to slide all divs out of the main box
 var hideDivs = function() {
@@ -60,6 +62,7 @@ $(document).ready(function() {
     });
     $(".schedule").click(function() {
         hideDivs();
+        hideSchedule();
         schedule.slideToggle(2000);
     });
     $(".public_blog").click(function() {
@@ -68,7 +71,15 @@ $(document).ready(function() {
     });
     $(".contact").click(function() {
         hideDivs();
-        contact.slideToggle(2000);
+        contact.fadeIn(2000);
+    });
+    $(".visualizer").click(function() {
+        counter++;
+        if (counter % 2 == 0) {
+            visualizer.fadeIn(2000);
+        } else {
+            visualizer.fadeOut(2000);
+        }
     });
     $(".sunday").click(function() {
         hideSchedule();
@@ -78,4 +89,25 @@ $(document).ready(function() {
         hideSchedule();
         monday.slideToggle(3000);
     });
+    $(".tuesday").click(function() {
+        hideSchedule();
+        tuesday.slideToggle(3000);
+    });
+    $(".wednesday").click(function() {
+        hideSchedule();
+        wednesday.slideToggle(3000);
+    });
+    $(".thursday").click(function() {
+        hideSchedule();
+        thursday.slideToggle(3000);
+    });
+    $(".friday").click(function() {
+        hideSchedule();
+        friday.slideToggle(3000);
+    });
+    $(".saturday").click(function() {
+        hideSchedule();
+        saturday.slideToggle(3000);
+    });
+
 });

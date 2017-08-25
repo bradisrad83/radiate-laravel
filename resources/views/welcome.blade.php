@@ -29,6 +29,7 @@
                 <a class="navbar-brand schedule">Schedule</a>
                 <a class="navbar-brand public_blog">Blog</a>
                 <a class="navbar-brand contact">Contact</a>
+                <a class="navbar-brand visualizer">Visualizer(On/Off)</a>
               </div>
           <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <div class="flex-center position-ref">
@@ -55,30 +56,30 @@
       <br> 
           <div class="row">
             <div class="col-sm-4"> 
-              <img src ="/images/dj1.jpg" height="200" width="200" id="dj1"></img> 
+              <img src ="/images/dj1.jpg" height="200" width="200" id="dj1" data-toggle="modal" data-target="#myModaldj1"></img> 
               <h1>Peter</h1>
             </div> 
             <div class="col-sm-4"> 
-              <img src ="/images/dj2.jpg" height="200" width="200"></img> 
+              <img src ="/images/dj2.jpg" height="200" width="200" id="dj2" data-toggle="modal" data-target="#myModaldj2"></img> 
               <h1>DJ</h1>
             </div> 
             <div class="col-sm-4"> 
-              <img src ="/images/dj3.jpg" height="200" width="200"></img> 
+              <img src ="/images/dj3.jpg" height="200" width="200" id="dj3" data-toggle="modal" data-target="#myModaldj3"></img> 
               <h1>DJ</h1>
             </div> 
           </div>
            <br>
           <div class="row">
             <div class="col-sm-4"> 
-              <img src ="/images/dj4.jpg" height="200" width="200"></img> 
+              <img src ="/images/dj4.jpg" height="200" width="200" id="dj4" data-toggle="modal" data-target="#myModaldj4"></img> 
               <h1>DJ</h1>
             </div> 
             <div class="col-sm-4"> 
-              <img src ="/images/dj5.jpg" height="200" width="200"></img> 
+              <img src ="/images/dj5.jpg" height="200" width="200" id="dj5" data-toggle="modal" data-target="#myModaldj5"></img> 
               <h1>DJ</h1>
             </div> 
             <div class="col-sm-4"> 
-              <img src ="/images/dj6.jpg" height="200" width="200"></img> 
+              <img src ="/images/dj6.jpg" height="200" width="200" id="dj6" data-toggle="modal" data-target="#myModaldj6"></img> 
               <h1>DJ</h1>
             </div> 
           </div>
@@ -97,7 +98,7 @@
               <h4 class="saturday">Saturday</h4>
             </div> 
            <div class="col-sm-2" id="times"> 
-              <p>Time(EST)</p>
+              <p>Time (EST)</p>
               <p>12:00am</p>
               <p>12:30am</p>
               <p>1:00am</p>
@@ -147,8 +148,8 @@
               <p>11:00pm</p>
               <p>11:30pm</p>
           </div>
-            <div class="col-sm-8" id="sunday"> 
-              <p><strong>Sunday</strong></p>
+            <div class="col-sm-6" id="sunday"> 
+              <p><strong>Sunday (Rock)</strong></p>
               <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
               <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
               <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
@@ -198,7 +199,7 @@
               <p>CritFail (Gaming)</p>
               <p>CritFail (Gaming)</p>
           </div>
-          <div class="col-sm-8" id="monday"> 
+          <div class="col-sm-6" id="monday"> 
               <p><strong>Monday</strong></p>
               <p>-</p>
               <p>-</p>
@@ -249,14 +250,198 @@
               <p>MadSounds (Reggae/Dancehall)</p>
               <p>MadSounds (Reggae/Dancehall)</p>
           </div>
+          <div class="col-sm-6" id="tuesday"> 
+              <p><strong>Tuesday (Electronic)</strong></p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>In the Year 2525 (Early Synth Pop/Experimental)</p>
+              <p>In the Year 2525 (Early Synth Pop/Experimental)</p>
+              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
+              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
+              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
+              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
+              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
+              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+          </div>
+            <div class="col-sm-6" id="friday"> 
+              <p><strong>Friday (Dance)</strong></p>
+              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
+              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
+              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
+              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
+              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
+              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
+              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
+              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
+              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
+              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
+              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>Muisc is Fantasay (Italo Disco)</p>
+              <p>Muisc is Fantasay (Italo Disco)</p>
+              <p>Radiate Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
+              <p>Radiate Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
+              <p>Softer Than Satin (Disco/Mambo)</p>
+              <p>Softer Than Satin (Disco/Mambo)</p>
+              <p>The Witching Hour (Electro/Industrial/Witch House)</p>
+              <p>The Witching Hour (Electro/Industrial/Witch House)</p>
+          </div>
+            <div class="col-sm-6" id="thursday"> 
+              <p><strong>Thursday (Rock)</strong></p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>-</p>
+              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
+              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
+              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
+              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
+              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
+              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
+              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
+              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
+          </div>
         </div> 
       </div>
       <div class="container">
         <div id="public_blog">
         </div>
       </div>
-      <div class="container">
+      <div class="container" align="center">
         <div id="contact">
+          <div class = "row">
+            <div class = "col-sm-6">
+              <h1>Contact Radiate</h1>
+                <p>Do you have any comments/concerns/suggestions?  Please feel free to fill out
+                  the following form and let me know what I can do to help.  Please keep in mind
+                  this is a free application brought to you buy a coding bootcamp student.  I will do
+                  my best to keep up with and try to make everyone happy.  I kindly thank you for
+                  using my web app and hope you have a wonderful day.
+                </p>
+                  <div id="contact-form" align="center">
+                      <form method="POST" action="https://formspree.io/brad.m.goldsmith@gmail.com">
+                        <input type="hidden"
+                              name="_subject"
+                              value="Contact request from Radiate" />
+                        <input type="email"
+                              name="_replyto"
+                              placeholder="Your Email Address"
+                              class="form-control">
+                        <br>
+                        <textarea name="message"
+                                  placeholder="Your message"
+                                  class="form-control"
+                                  rows="5"
+                                  required></textarea>
+                        <br>
+                        <button class="btn btn-primary navbar-inverse" type="submit">Send</button>
+                      </form>
+                  </div>
+            </div>
+          </div>
+        </div>                   
         </div>
       </div>
       <footer>
@@ -266,6 +451,7 @@
           </div>
         </nav>
       </footer>
+      <!--Modals for radio and DJs-->
       <div class="modal fade" id="myModalradio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -284,6 +470,89 @@
           </div>
         </div>
       </div>
+
+      <div class="modal fade" id="myModaldj1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+              <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+              <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+              <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+              <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+              <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+              <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
 
       <script src="{{ asset('js/jquery.min.js') }}"></script>
       <script src="{{ asset('js/dat.gui.min.js') }}"></script>
