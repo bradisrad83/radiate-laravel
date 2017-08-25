@@ -57,30 +57,30 @@
           <div class="row">
             <div class="col-sm-4"> 
               <img src ="/images/dj1.jpg" height="200" width="200" id="dj1" data-toggle="modal" data-target="#myModaldj1"></img> 
-              <h1>Peter</h1>
+              <h1>DeeLeeT</h1>
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj2.jpg" height="200" width="200" id="dj2" data-toggle="modal" data-target="#myModaldj2"></img> 
-              <h1>DJ</h1>
+              <h1>Johnny Midnite</h1>
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj3.jpg" height="200" width="200" id="dj3" data-toggle="modal" data-target="#myModaldj3"></img> 
-              <h1>DJ</h1>
+              <h1>Doug</h1>
             </div> 
           </div>
            <br>
           <div class="row">
             <div class="col-sm-4"> 
               <img src ="/images/dj4.jpg" height="200" width="200" id="dj4" data-toggle="modal" data-target="#myModaldj4"></img> 
-              <h1>DJ</h1>
+              <h1>Special K</h1>
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj5.jpg" height="200" width="200" id="dj5" data-toggle="modal" data-target="#myModaldj5"></img> 
-              <h1>DJ</h1>
+              <h1>Torgo</h1>
             </div> 
             <div class="col-sm-4"> 
               <img src ="/images/dj6.jpg" height="200" width="200" id="dj6" data-toggle="modal" data-target="#myModaldj6"></img> 
-              <h1>DJ</h1>
+              <h1>J-Nige</h1>
             </div> 
           </div>
         </div>
@@ -421,7 +421,7 @@
                   using my web app and hope you have a wonderful day.
                 </p>
                   <div id="contact-form" align="center">
-                      <form method="POST" action="https://formspree.io/brad.m.goldsmith@gmail.com">
+                      <form method="POST" action="https://formspree.io/programmingradiate@gmail.com">
                         <input type="hidden"
                               name="_subject"
                               value="Contact request from Radiate" />
@@ -447,7 +447,7 @@
       <footer>
         <nav class="navbar-inverse navbar-default navbar-fixed-bottom">
           <div class="container" align="center">
-            <h5>© Radiate Radio 2017 ©</h5>
+            <h5>© Radiate 2017 ©</h5>
           </div>
         </nav>
       </footer>

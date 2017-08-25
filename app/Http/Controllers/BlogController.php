@@ -21,6 +21,8 @@ class BlogController extends Controller
     public function index(Request $request)
     {
         //
+        //$all_blogs = Blog::all(); ------this is the command to select all data from DB and display it publically!!!!!!!
+        
         return view('admin.allblogs')
             ->withBlogs(Blog::where('user_id', $request->user()->id)->get())
             ->withUser($request->user());
