@@ -108,6 +108,7 @@
             </div>
             @yield('content')
         </nav>
+        <!--
         <button type="button" class="btn btn-primary navbar-inverse btn-md btn-block" data-toggle="modal" data-target="#myModalradio">
           Radiate Radio</button>
         <br>
@@ -130,6 +131,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <!-- Javascript Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
