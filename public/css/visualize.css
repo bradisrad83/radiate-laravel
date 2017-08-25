@@ -85,6 +85,7 @@ h5 {
 
 .btn {
     color: green;
+    border: 1px solid green;
 }
 
 .btn:hover {
