@@ -68,6 +68,7 @@
                     </button>
 
                     <!-- Branding Image -->
+                    <a class="navbar-brand" href="{{ url('/blog') }}">All Blogs</a>
                     <a class="navbar-brand" href="{{ url('/blog/create') }}">Add Blog Entry</a>
                 </div>
 

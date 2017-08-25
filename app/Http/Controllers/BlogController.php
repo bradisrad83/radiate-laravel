@@ -4,12 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App/User;
-use App/Blog;
+use App\Blog;
+use App\User;
 
 class BlogController extends Controller
 {
-    
     public function __construct()
     {
         $this->middleware('auth');
@@ -19,11 +18,13 @@ class BlogController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request, User $user)
+    public function index(Request $request)
     {
         //
-        $blogs = DB::select('select * from blogs')->get();
-        return view('welcome', ['blogs'=>$blogs]);
+        return view('admin.allblogs')
+            ->withBlogs(Blog::where('user_id', $request->user()->id)->get())
+            ->withUser($request->user());
+
     }
 
     /**
@@ -34,7 +35,7 @@ class BlogController extends Controller
     public function create()
     {
         //
-        return view('admin.addblogentry');
+         return view("admin.addblog");
     }
 
     /**
@@ -46,6 +47,12 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         //
+        $user_id = $request->user()->id;
+        $blog_post= $request->get('blog_post');
+
+        $new_blog = new Blog (['user_id'=>$user_id, 'blog_post'=>$blog_post]);
+        $new_blog->save();
+        return redirect()->action("BlogController@index");
     }
 
     /**
