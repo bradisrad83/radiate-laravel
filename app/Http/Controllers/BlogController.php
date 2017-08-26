@@ -59,7 +59,7 @@ class BlogController extends Controller
         $blog_post= $request->get('blog_post');
         
 
-        $new_blog = new Blog (['user_id'=>$user_id, 'blog_post'=>$blog_post]);
+        $new_blog = new Blog (['user_id'=>$user_id,'blog_title'=>$blog_title, 'blog_post'=>$blog_post]);
         $new_blog->save();
         return redirect()->action("BlogController@index");
     }
@@ -81,9 +81,12 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Request $request, Blog $blog)
     {
         //
+        return view('admin.editblog')
+                ->withBlog($blog)
+                ->withUser($request->user());
     }
 
     /**
@@ -93,9 +96,11 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Blog $blog)
     {
         //
+        Blog::find($blog->id)->update($request->all());
+        return redirect()->action("BlogController@index");
     }
 
     /**
@@ -104,8 +109,10 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Blog $blog)
     {
         //
+        Blog::find($blog->id)->delete();
+        return redirect()->action("BlogController@index");
     }
 }

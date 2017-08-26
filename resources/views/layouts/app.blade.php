@@ -48,6 +48,10 @@
         .links>a:hover{
           color: white;
         }
+        a {
+            color: green;
+            text-decoration: none;
+        }
         .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text {
             color: green;
         }
