@@ -14,7 +14,7 @@
     </div>
 @endif
 
-    <form action="/blog{{$blog->id}}" method="POST">
+    <form action="/blog/{{$blog->id}}" method="POST">
 
     {{ csrf_field() }}
     {{ method_field('PUT') }}
