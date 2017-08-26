@@ -408,9 +408,9 @@
       <div class="container">
         <div id="public_blog">
           @foreach($blogs as $blog => $values)
-            <h2>{{$values->created_at->format('M d Y')}}</h2> 
-            <h2>{{$values->blog_title}}</h2> 
-            <p>{{$values->blog_post}}</p> 
+            <h4 class="blog">{{$values->created_at->format('M d Y')}}</h4> 
+            <h4 class="blog">{{$values->blog_title}}</h4> 
+            <p class="blog">{{$values->blog_post}}</p> 
             <hr> 
           @endforeach
         </div>
@@ -481,8 +481,15 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header"></div>
-              <div class="modal-body">
-            </div>
+              <h3 class="modal-text header"><strong>DeeLeeT</strong></h3>
+                <div class="modal-body">
+                  <p class="modal-text">DJ DeeLeeT is a New York City born retro music junkie. He first started in radio 
+                    in 2007 with WRGP and now serves as programming director for Radiate. You can 
+                    hear him on the HUMPday show and Nocturnal Emissions. He is also the brains 
+                    behind Dead City Radio, Miami Roller Disco Party 2000, Radiate Legends and In 
+                    the Year 2525. If you’d like to get your music on air please contact him at
+                    <a href="mailto:ProgrammingRadiate@gmail.com" target="_top">ProgrammingRadiate@gmail.com</a>.</p>
+                </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
             </div>
@@ -494,8 +501,13 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header"></div>
-              <div class="modal-body">
-            </div>
+              <h3 class ="modal-text header"><strong>Johnny Midnite</strong></h3>
+                <div class="modal-body">
+                  <p class="modal-text">Johnny Midnite is back and louder than ever! Kicking ass and taking names, 
+                    calling up thunder and lightning, and making your eardrums bleed, it’s Johnny Midnite's Rock 
+                    & Roll Radio! Bringing you the best in rock & roll from rockabilly to metal, and everything 
+                    in between every Thursday from 7-10 PM! Turn on, tune in, and drop dead!</p>
+                </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
             </div>
@@ -520,8 +532,15 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header"></div>
-              <div class="modal-body">
-            </div>
+              <h3 class ="modal-text header"><strong>Special K</strong></h3>
+                <div class="modal-body">
+                  <p class="modal-text">She's, she's, she's a Bombshell. The unforgettable Special K is a newcomer to the radio 
+                    scene. She is a career punk rocker moonlighting as a paralegal and plans on nuking the system from the very 
+                    center of it. When she’s not stalking Mark Hoppus, uppercutting shady men in dark alleys or spreading her 
+                    seeds of love in the form of drunk make out sessions and creepy dad jokes, she’s bringing you the 
+                    Anti-Corporate Mid Day Punk show on Saturdays at noon.  Follow her on twitter/Instagram and send her your 
+                    song request @mofoagogo</p>
+                </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
             </div>
@@ -533,8 +552,14 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header"></div>
-              <div class="modal-body">
-            </div>
+             <h3 class="modal-text header"><strong>Torgo</strong></h3>
+                <div class="modal-body">
+                  <p class="modal-text">From the warehouses and seedy 8th street bars in Miami, DJ Torgo is a motherfucker 
+                    (literally). He made his radio debut in 2010 and hasn’t looked back. He began his radio career with 
+                    his 90s love letter: Going Blank Again and then moved on to critically praised shows such as One Hour 
+                    Party People and the syndicated Wall of Sound. He now still travels around the world and began a teaching 
+                    career in 2017.</p>
+                </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
             </div>
@@ -546,7 +571,10 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header"></div>
+            <h3 class ="modal-text header"><strong>J-Nige</strong></h3>
               <div class="modal-body">
+                <p class="modal-text">J-Nige was born in the Island of Ohio. His wisdom and reggae vibes can be heard on Down 
+                  By The Beach. He is currently living in a rainbow colored tent on a beach.<p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
