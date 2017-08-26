@@ -164,7 +164,6 @@ footer {
     top: 150px;
     bottom: 50px;
     width: calc(100% - 20%);
-    border: 3px solid white;
     z-index: 2;
 }
 

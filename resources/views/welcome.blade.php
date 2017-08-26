@@ -407,6 +407,12 @@
       </div>
       <div class="container">
         <div id="public_blog">
+          @foreach($blogs as $blog => $values)
+            <h2>{{$values->created_at->format('M d Y')}}</h2> 
+            <h2>{{$values->blog_title}}</h2> 
+            <p>{{$values->blog_post}}</p> 
+            <hr> 
+          @endforeach
         </div>
       </div>
       <div class="container" align="center">
