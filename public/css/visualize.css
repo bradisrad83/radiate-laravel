@@ -157,6 +157,7 @@ footer {
     width: calc(100% - 20%);
     z-index: 2;
     overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 #public_blog {
