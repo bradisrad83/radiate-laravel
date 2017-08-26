@@ -1,2 +1,10 @@
+
+vendor
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
 .env
-/vendor
+Homestead.yaml
+Homestead.json
