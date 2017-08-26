@@ -596,6 +596,7 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
         crossorigin="anonymous">
       </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="{{ asset('js/jquery.min.js') }}"></script>
       <script src="{{ asset('js/dat.gui.min.js') }}"></script>
       <script src="{{ asset('js/app.js') }}"></script>
