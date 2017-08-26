@@ -2,10 +2,10 @@
 
 @section('content')
 <div class = "container">
-<h1>TESTING</h1>
+    <h1>Radiate Blog</h1>
     @foreach($blogs as $blog) 
-        {{$blog}}
-        <br>
+            {{$blog}}
+            <br>
     @endforeach
 <div>
 @stop

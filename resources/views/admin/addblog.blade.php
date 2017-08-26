@@ -19,6 +19,16 @@
     {{ csrf_field() }}
 
         <div class="form-group row">
+            <label for="blog_title" class="col-sm-2 form-control-label">Title of Blog (Headline)</label>
+                <div class="col-sm-6">
+                    <input class="form-control"
+                            type="text"
+                            name="blog_title"
+                            placeholder="Title or Headline for Todays Blog">
+                </div>  
+        </div>
+
+        <div class="form-group row">
             <label for="blog_post" class="col-sm-2 form-control-label">Blog Entry</label>
                 <div class="col-sm-6">
                     <textarea class="form-control"

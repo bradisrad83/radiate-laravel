@@ -14,28 +14,28 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
         html, body {
-            background-color: #fff;
-            background-image:url('/images/3.jpg');
+            background-color: black;
             background-size: cover;
             color: #636b6f;
             font-family: 'Raleway', sans-serif;
             font-weight: 100;
-            height: 100vh;
+            height: 100%;
+            width: 100%;
             margin: 0;
-        }
-        .modal-content{
-          background-image: url("/images/1.jpg");
-          background-size: contain;
-        }
-        video{
-          opacity: 0.5;
         }
         .btn{
           color:green;
+          border: 1px solid green;
         }
         .btn:hover{
           background-color:#fff;
           color:green;
+        }
+        label{
+            color:green;
+        }
+        h1{
+            color:green;
         }
         .btn-primary.focus, .btn-primary:focus {
           color: #fff;
@@ -50,6 +50,22 @@
         }
         .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text {
             color: green;
+        }
+        .form-control {
+            width: 100%;
+            height: 36px;
+            padding: 6px 12px;
+            background-color: black;
+            border: 1px solid green;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        }
+        .form-control, output {
+            font-size: 14px;
+            line-height: 1.6;
+            color: green;
+            display: block;
         }
     </style>
 </head>

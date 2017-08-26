@@ -48,9 +48,16 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //Peter must enter a title/post to store a blog
+        $this->validate($request, [
+            'blog_title' => 'required',
+            'blog_post' => 'required'
+        ]);
+
         $user_id = $request->user()->id;
+        $blog_title =$request->get('blog_title');
         $blog_post= $request->get('blog_post');
+        
 
         $new_blog = new Blog (['user_id'=>$user_id, 'blog_post'=>$blog_post]);
         $new_blog->save();
