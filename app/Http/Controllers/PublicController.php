@@ -11,6 +11,7 @@ class PublicController extends Controller
     //
     public function main(Blog $blog)
     {
-        return view('welcome')->withBlogs(Blog::all());
+        //sorting the blog entries by date so newest comes up first
+        return view('welcome')->withBlogs(Blog::all()->sortByDesc('created_at'));
     }
 }
