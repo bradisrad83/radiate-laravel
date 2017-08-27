@@ -54,32 +54,51 @@
       <br> 
       <br> 
           <div class="row">
-            <div class="col-sm-4"> 
-              <img src ="/images/dj1.jpg" height="200" width="200" id="dj1" data-toggle="modal" data-target="#myModaldj1"></img> 
+            <div class="col-sm-3"> 
+              <img src ="/images/dj1.jpg" height="150" width="150" id="dj1" data-toggle="modal" data-target="#myModaldj1"></img> 
               <h1>DeeLeeT</h1>
             </div> 
-            <div class="col-sm-4"> 
-              <img src ="/images/dj2.jpg" height="200" width="200" id="dj2" data-toggle="modal" data-target="#myModaldj2"></img> 
+            <div class="col-sm-3"> 
+              <img src ="/images/dj2.jpg" height="150" width="150" id="dj2" data-toggle="modal" data-target="#myModaldj2"></img> 
               <h1>Johnny Midnite</h1>
             </div> 
-            <div class="col-sm-4"> 
-              <img src ="/images/dj3.jpg" height="200" width="200" id="dj3" data-toggle="modal" data-target="#myModaldj3"></img> 
+            <div class="col-sm-3"> 
+              <img src ="/images/dj3.jpg" height="150" width="150" id="dj3" data-toggle="modal" data-target="#myModaldj3"></img> 
               <h1>Doug</h1>
             </div> 
-          </div>
-           <br>
-          <div class="row">
-            <div class="col-sm-4"> 
-              <img src ="/images/dj4.jpg" height="200" width="200" id="dj4" data-toggle="modal" data-target="#myModaldj4"></img> 
+            <div class="col-sm-3"> 
+              <img src ="/images/dj4.jpg" height="150" width="150" id="dj4" data-toggle="modal" data-target="#myModaldj4"></img> 
               <h1>Special K</h1>
-            </div> 
-            <div class="col-sm-4"> 
-              <img src ="/images/dj5.jpg" height="200" width="200" id="dj5" data-toggle="modal" data-target="#myModaldj5"></img> 
+            </div>           
+           <br>
+          </div>
+          <div class="row">
+            <div class="col-sm-3"> 
+              <img src ="/images/dj5.jpg" height="150" width="150" id="dj5" data-toggle="modal" data-target="#myModaldj5"></img> 
               <h1>Torgo</h1>
             </div> 
-            <div class="col-sm-4"> 
-              <img src ="/images/dj6.jpg" height="200" width="200" id="dj6" data-toggle="modal" data-target="#myModaldj6"></img> 
+            <div class="col-sm-3"> 
+              <img src ="/images/dj6.jpg" height="150" width="150" id="dj6" data-toggle="modal" data-target="#myModaldj6"></img> 
               <h1>J-Nige</h1>
+            </div> 
+            <div class="col-sm-3"> 
+              <img src ="/images/dj7.jpg" height="150" width="150" id="dj7" data-toggle="modal" data-target="#myModaldj7"></img> 
+              <h1>Madsounds</h1>
+            </div> 
+            <div class="col-sm-3"> 
+              <img src ="/images/dj8.jpg" height="150" width="150" id="dj8" data-toggle="modal" data-target="#myModaldj8"></img> 
+              <h1>Mamey Disco</h1>
+            </div> 
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-3 offset-md-3"> 
+              <img src ="/images/dj9.jpg" height="150" width="150" id="dj9" data-toggle="modal" data-target="#myModaldj9"></img> 
+              <h1>Vundacast</h1>
+            </div> 
+            <div class="col-md-3"> 
+              <img src ="/images/dj10.jpg" height="150" width="150" id="dj10" data-toggle="modal" data-target="#myModaldj10"></img> 
+              <h1>Critfail</h1>
             </div> 
           </div>
         </div>
@@ -574,6 +593,87 @@
               <div class="modal-body">
                 <p class="modal-text">J-Nige was born in the Island of Ohio. His wisdom and reggae vibes can be heard on Down 
                   By The Beach. He is currently living in a rainbow colored tent on a beach.<p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+            <h3 class ="modal-text header"><strong>Madsounds</strong></h3>
+              <div class="modal-body">
+                <p class="modal-text">MadSounds is truly a first-class DJ. He has expertise in many different genres of music 
+                  but specialize in house and reggae.  He has over fifteen years of DJ experience and has been known to 
+                  set-the-vibe at mobile parties, on mix tapes, and at nightclubs. He was the resident DJ at “Foxes,” a Jersey 
+                  City mainstay that happened to be one of the hottest clubs in the tri-state area. He also was no stranger to 
+                  spinning at other hot-spots such as Drama, Sandbar, Albert’s, Renaissance, and the Supper Club. MadSounds 
+                  utilizes his West Indian heritage to help him channel the skills to flawlessly mix soul-thumping reggae.  He 
+                  has had a life-long love of reggae and it shows with the way he blends reggae with seamless perfection. In 
+                  February of 2008, MadSounds created worldofdjs. In July of that same year, worldofdjs made its debut and 
+                  went live.<p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+            <h3 class ="modal-text header"><strong>Mamey Disco</strong></h3>
+              <div class="modal-body">
+                <p class="modal-text">The enigmatic Mamey Disco has been lighting up dancefloors since 2011. The Cuban connoisseur 
+                  is an avid baker, farmer and collector of vinyl in his spare time when he isn’t lighting up your ears with his 
+                  sounds on Softer Than Satin or challenging your senses on Coupled Data.<p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+            <h3 class ="modal-text header"><strong>Mamey Disco</strong></h3>
+              <div class="modal-body">
+                <p class="modal-text">The Vundacast is the official podcast (available on iTunes and stitcher) of Vundablog.com. 
+                  Vundablog.com is a place on the inter webs for pop-cultural opinions and by proxy the Vundacast is the apex of 
+                  pop-cultural opinions on the topics that really matter like for example: Ripley from Aliens, Saved by the Bell, 
+                  dogs, 90's Wrestling, etc, Hosted by Stephen and Danielle aka Chicken Nugget, with special guests hosts Mr. J, 
+                  D-Rock, and editor extraordinaire Blockbuster Guy Frank. The Vundacast can reached on Facebook or Twitter @Vundablog 
+                  or @vundacast or be email <a href="mailto:Vundacast@gmail.com" target="_top">Vundacast@gmail.com</a> or 
+                  <a href="mailto:Vundablog@gmail.com" target="_top">Vundablog@gmail.com</a> 
+                  <a href="https://www.facebook.com/vundablog" target="_top">https://www.facebook.com/vundablog</a> 
+                  <a href="https://twitter.com/vundacast" target="_top">https://twitter.com/vundacast</a>.<p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModaldj10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+            <h3 class ="modal-text header"><strong>Critfail</strong></h3>
+              <div class="modal-body">
+                <p class="modal-text">Heyo, I'm Kel. I run the Critfail show. The guys you'll hear on the show are Pat, Joe, Brandon, 
+                  Cody, Jim and occasionally other guests (Lackey being the most recent). We play table top RPG's, stuff like D&D. 
+                  I do my best to edit out the bs, but lets be honest, most gaming groups are just an excuse to make each other 
+                  laugh and hopefully you'll get a few laughs too<p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
