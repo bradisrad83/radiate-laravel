@@ -28,7 +28,7 @@
                 <a class="navbar-brand schedule">Schedule</a>
                 <a class="navbar-brand public_blog">Blog</a>
                 <a class="navbar-brand contact">Contact</a>
-                <a class="navbar-brand visualizer">Visualizer(On/Off)</a>
+                <a class="navbar-brand visualizer">Visualizer</a>
               </div>
           <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <div class="flex-center position-ref">

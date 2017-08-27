@@ -76,6 +76,7 @@ $(document).ready(function() {
     $(".visualizer").click(function() {
         counter++;
         if (counter % 2 == 0) {
+            hideDivs();
             visualizer.fadeIn(2000);
         } else {
             visualizer.fadeOut(2000);
