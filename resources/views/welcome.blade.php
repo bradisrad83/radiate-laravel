@@ -419,11 +419,11 @@
           <div class = "row">
             <div class = "col-sm-6">
               <h1>Contact Radiate</h1>
-                <p>Do you have any comments/concerns/suggestions?  Please feel free to fill out
-                  the following form and let me know what I can do to help.  Please keep in mind
-                  this is a free application brought to you buy a coding bootcamp student.  I will do
-                  my best to keep up with and try to make everyone happy.  I kindly thank you for
-                  using my web app and hope you have a wonderful day.
+                <p>Thank you all so very much for listening and visiting Radiate.  We are all so happy 
+                   to have you here.  If there is any type of programming/music you would like to hear, 
+                   please fill out the form below and let us know.  Want your music/show on here to, you 
+                   guessed it, fill out the form below.  Enjoy listening and have fun with our visuals.  
+                   Radiate, OUT!!!!!!!!!
                 </p>
                   <div id="contact-form" align="center">
                       <form method="POST" action="https://formspree.io/programmingradiate@gmail.com">
