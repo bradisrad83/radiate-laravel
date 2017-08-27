@@ -58,6 +58,7 @@ $(document).ready(function() {
     //click events for animation and div reveals
     $(".djs").click(function() {
         hideDivs();
+        console.log("THIS IS WORKING");
         dj.fadeIn(3000);
     });
     $(".schedule").click(function() {
