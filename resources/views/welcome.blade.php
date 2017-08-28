@@ -64,7 +64,7 @@
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj3.jpg" height="150" width="150" id="dj3" data-toggle="modal" data-target="#myModaldj3"></img> 
-              <h1>Doug</h1>
+              <h1>Pervus Pervolous</h1>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj4.jpg" height="150" width="150" id="dj4" data-toggle="modal" data-target="#myModaldj4"></img> 
