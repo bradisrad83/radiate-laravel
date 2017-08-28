@@ -9,7 +9,8 @@ body {
 }
 
 h1 {
-    color: white;
+    color: green;
+    font-family: 'Rock Salt', cursive;
 }
 
 h4 {
@@ -22,12 +23,14 @@ p {
 }
 
 .modal-text {
+    font-family: 'Rock Salt', cursive;
     color: green;
     font-size: 20px;
     padding: 2%;
 }
 
 .modal-text.header {
+    font-family: 'Rock Salt', cursive;
     font-size: 30px;
     padding: 2%;
 }
@@ -199,11 +202,10 @@ footer {
 }
 
 img {
-    border: 1px solid white;
+    border: 2px solid green;
 }
 
 img:hover {
-    border: 3px solid green;
     transition: 0.5s;
     transform: scale(1.2);
 }
