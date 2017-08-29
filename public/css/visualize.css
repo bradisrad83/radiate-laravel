@@ -21,9 +21,8 @@ h5 {
 }
 
 .contact-text {
-    color: green;
-    font-family: 'Rock Salt', cursive;
-    text-shadow: 2px 2px 2px purple;
+    color: white;
+    font-size: 20px;
 }
 
 h4 {
@@ -36,11 +35,9 @@ p {
 }
 
 .modal-text {
-    font-family: 'Rock Salt', cursive;
     color: green;
     font-size: 20px;
     padding: 2%;
-    text-shadow: 1px 1px 1px purple;
 }
 
 .modal-text.header {
