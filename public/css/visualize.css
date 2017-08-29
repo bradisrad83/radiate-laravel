@@ -14,6 +14,18 @@ h1 {
     text-shadow: 2px 2px 2px purple;
 }
 
+h5 {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
+
+.contact-text {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
+
 h4 {
     color: green;
 }
@@ -81,6 +93,8 @@ p {
 
 .links>a {
     color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
     padding: 0 25px;
     font-size: 12px;
     font-weight: 600;
@@ -95,45 +109,42 @@ p {
 
 .navbar-inverse .navbar-brand {
     color: green;
+    font-size: 25px;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
 }
 
+
+}
 .m-b-md {
     margin-bottom: 30px;
 }
-
 h5 {
     color: green;
 }
-
 .mainbar {
     align-content: center;
 }
-
 .radiate {
     max-width: 100;
 }
-
 .btn {
     color: green;
     border: 1px solid green;
 }
-
 a {
     color: green;
 }
-
 .btn:hover {
     background-color: #fff;
     color: green;
 }
-
 .btn-primary.focus,
 .btn-primary:focus {
     color: #fff;
     background-color: black;
     color: green;
 }
-
 canvas {
     position: absolute;
     top: 0;
@@ -141,30 +152,25 @@ canvas {
     width: 100%;
     height: 100%;
 }
-
 audio {
     position: absolute;
     z-index: 2;
     bottom: 40px;
     left: 0;
 }
-
 footer {
     position: absolute;
     z-index: 0;
     bottom: 500px;
     left: 0;
 }
-
 .navbar-inverse {
     background-color: black;
     z-index: 1;
 }
-
 .mainbar {
     padding: 10px 10px 10px 10px;
 }
-
 #djs {
     position: fixed;
     top: 150px;
@@ -174,7 +180,6 @@ footer {
     opacity: 0.6;
     overflow-y: scroll;
 }
-
 #contact {
     position: fixed;
     top: 150px;
@@ -183,7 +188,6 @@ footer {
     z-index: 2;
     opacity: 0.8;
 }
-
 #schedule {
     position: fixed;
     top: 150px;
@@ -193,7 +197,6 @@ footer {
     overflow-y: scroll;
     overflow-x: scroll;
 }
-
 #public_blog {
     position: fixed;
     top: 150px;
@@ -202,22 +205,19 @@ footer {
     z-index: 2;
     overflow-y: scroll;
     border: 2px solid green;
+    box-shadow: 1px 1px 10px purple;
 }
-
 img {
     border: 2px solid green;
-    box-shadow: 1px 1px 10px white;
+    box-shadow: 2px 2px 10px purple;
 }
-
 img:hover {
     transition: 0.5s;
     transform: scale(1.2);
 }
-
 h4:hover {
     color: white;
 }
-
 .form-control {
     width: 100%;
     height: 36px;
@@ -228,7 +228,6 @@ h4:hover {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-
 .form-control,
 output {
     font-size: 14px;
@@ -236,13 +235,75 @@ output {
     color: white;
     display: block;
 }
-
 .blog {
-    color: white;
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
     padding-right: 2%;
     padding-left: 2%;
 }
-
+.blog:hover {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
 hr {
     border: 1px solid green;
+    box-shadow: 2px 2px 10px purple;
+}
+button {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
+.day {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
+.dg.main .close-button.close-bottom {
+    position: absolute;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
+@media screen and (max-width: 480px) {
+    #djs {
+        position: fixed;
+        top: 200px;
+        bottom: 50px;
+        z-index: 2;
+        width: calc(100% - 20%);
+        opacity: 0.6;
+        overflow-y: scroll;
+    }
+    
+    #contact {
+        position: fixed;
+        top: 200px;
+        bottom: 50px;
+        width: calc(100% - 20%);
+        z-index: 2;
+        opacity: 0.8;
+    }
+    
+    #schedule {
+        position: fixed;
+        top: 250px;
+        bottom: 50px;
+        width: calc(100% - 20%);
+        z-index: 2;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    
+    #public_blog {
+        position: fixed;
+        top: 200px;
+        bottom: 50px;
+        width: calc(100% - 20%);
+        z-index: 2;
+        overflow-y: scroll;
+        border: 2px solid green;
+        box-shadow: 1px 1px 10px purple;
+    }
 }

@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-primary navbar-inverse btn-md btn-block" data-toggle="modal" data-target="#myModalradio">
+        <button type="button" class="btn btn-primary navbar-inverse btn-lg btn-block" data-toggle="modal" data-target="#myModalradio">
           Radiate Radio</button>
       </nav>
       <canvas id="canvas"></canvas>
@@ -108,13 +108,13 @@
         <div id="schedule">
           <div class="row"> 
             <div class = "col-sm-2"> 
-              <h4 class="sunday">Sunday</h4>
-              <h4 class="monday">Monday</h4>
-              <h4 class="tuesday">Tuesday</h4>
-              <h4 class="wednesday">Wednesday</h4> 
-              <h4 class="thursday">Thursday</h4>
-              <h4 class="friday">Friday</h4>
-              <h4 class="saturday">Saturday</h4>
+              <h4 class="sunday day">Sunday</h4>
+              <h4 class="monday day">Monday</h4>
+              <h4 class="tuesday day">Tuesday</h4>
+              <h4 class="wednesday day">Wednesday</h4> 
+              <h4 class="thursday day">Thursday</h4>
+              <h4 class="friday day">Friday</h4>
+              <h4 class="saturday day">Saturday</h4>
             </div> 
            <div class="col-sm-2" id="times"> 
               <p>Time (EST)</p>
@@ -439,7 +439,7 @@
           <div class = "row">
             <div class = "col-sm-6">
               <h1>Contact Radiate</h1>
-                <p>Thank you all so very much for listening and visiting Radiate.  We are all so happy 
+                <p class="contact-text">Thank you all so very much for listening and visiting Radiate.  We are all so happy 
                    to have you here.  If there is any type of programming/music you would like to hear, 
                    please fill out the form below and let us know.  Want your music/show on here to, you 
                    guessed it, fill out the form below.  Enjoy listening and have fun with our visuals.  
