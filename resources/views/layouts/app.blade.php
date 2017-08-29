@@ -11,7 +11,16 @@
     <title>Radiate</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!--
+        <link href="/css/app.css" rel="stylesheet">
+        <link href="/css/visualize.css" rel="stylesheet">
+-->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
     <style>
         html, body {
             background-color: black;
@@ -90,6 +99,7 @@
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/blog') }}">All Blogs</a>
                     <a class="navbar-brand" href="{{ url('/blog/create') }}">Add Blog Entry</a>
+                    <a class="navbar-brand radiate" data-toggle="modal" data-target="#myModalradio">Radiate</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -129,33 +139,41 @@
             </div>
             @yield('content')
         </nav>
-        <!--
-        <button type="button" class="btn btn-primary navbar-inverse btn-md btn-block" data-toggle="modal" data-target="#myModalradio">
-          Radiate Radio</button>
-        <br>
-        <br>
 
-
-    </div>
-
-    <div class="modal fade" id="myModalradio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div align="center">
-            <video controls autoplay="true" name="media">
-              <source src="http://67.212.189.122:8008/stream" type="audio/mpeg">
-            </video>
+    <footer>
+        <nav class="navbar-inverse navbar-default navbar-fixed-bottom">
+          <div class="container" align="center">
+            <h5>© Radiate 2017 ©</h5>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+        </nav>
+    </footer>
+      <!--Modals for radio and DJs-->
+      <div class="modal fade" id="myModalradio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+              <div class="modal-body">
+                <audio controls autoplay="true">
+                    <source src="http://67.212.189.122:8008/stream" type="audio/mpeg" crossOrigin="use-credentials"/>
+                </audio>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    -->
 
     <!-- Javascript Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/playlist.js')}}"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/jquery.min.js') }}"></script>
+        <script src="{{ asset('js/dat.gui.min.js') }}"></script>
+        <script src="{{ asset('js/visualize.js') }}"></script>
+    <!--
+      <script src="/js/app.js"></script>
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/dat.gui.min.js"></script>
+      <script src="/js/visualize.js"></script>
+    -->
 </body>
 </html>

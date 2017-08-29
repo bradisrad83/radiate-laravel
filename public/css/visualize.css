@@ -20,6 +20,12 @@ h5 {
     text-shadow: 2px 2px 2px purple;
 }
 
+label {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
+
 .contact-text {
     color: white;
     font-size: 20px;
@@ -102,6 +108,13 @@ p {
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-text {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
 }
 
 .links>a:hover {
