@@ -30,6 +30,7 @@
                 <a class="navbar-brand public_blog">Blog</a>
                 <a class="navbar-brand contact">Contact</a>
                 <a class="navbar-brand visualizer">Visualizer</a>
+                <a class="navbar-brand radiate" data-toggle="modal" data-target="#myModalradio">Radiate</a>
               </div>
           <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <div class="flex-center position-ref">
@@ -45,8 +46,6 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-primary navbar-inverse btn-lg btn-block" data-toggle="modal" data-target="#myModalradio">
-          Radiate Radio</button>
       </nav>
       <canvas id="canvas"></canvas>
       <div id="fps"></div>
@@ -485,9 +484,6 @@
                 <audio controls autoplay="true">
                     <source src="http://67.212.189.122:8008/stream" type="audio/mpeg" crossOrigin="use-credentials"/>
                 </audio>
-                <div style="white-space: nowrap; overflow: hidden; margin-right: 8px">
-			              Now playing: <a href="/tunein/pcasti00.pls" id="cc_strinfo_summary_pcasti00" class="cc_streaminfo" style="text-overflow: ellipsis">Loading...</a> (<span id="cc_strinfo_server_pcasti00" class="cc_streaminfo"></span>)<br />
-                </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary navbar-inverse pull-right" data-dismiss="modal">Close</button>
