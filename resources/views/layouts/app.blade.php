@@ -11,10 +11,7 @@
     <title>Radiate</title>
 
     <!-- Styles -->
-    <!--
-        <link href="/css/app.css" rel="stylesheet">
-        <link href="/css/visualize.css" rel="stylesheet">
--->
+
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
 
