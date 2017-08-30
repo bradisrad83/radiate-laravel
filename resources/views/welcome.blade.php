@@ -11,9 +11,14 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
-
+        <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
+        
+        <!--
         <link href="/css/app.css" rel="stylesheet">
         <link href="/css/visualize.css" rel="stylesheet">
+        -->
 
           
     </head>
@@ -56,11 +61,11 @@
           <div class="row">
             <div class="col-sm-3"> 
               <img src ="/images/dj1.jpg" height="150" width="150" id="dj1" data-toggle="modal" data-target="#myModaldj1"></img> 
-              <h1>DeeLeeT</h1>
+              <h3>DeeLeeT</h3>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj2.jpg" height="150" width="150" id="dj2" data-toggle="modal" data-target="#myModaldj2"></img> 
-              <h2>Johnny Midnite</h2>
+              <h3>Johnny Midnite</h3>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj3.jpg" height="150" width="150" id="dj3" data-toggle="modal" data-target="#myModaldj3"></img> 
@@ -68,37 +73,37 @@
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj4.jpg" height="150" width="150" id="dj4" data-toggle="modal" data-target="#myModaldj4"></img> 
-              <h4>Special K</h4>
+              <h3>Special K</h3>
             </div>           
            <br>
           </div>
           <div class="row">
             <div class="col-sm-3"> 
               <img src ="/images/dj5.jpg" height="150" width="150" id="dj5" data-toggle="modal" data-target="#myModaldj5"></img> 
-              <h1>Torgo</h1>
+              <h3>Torgo</h3>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj6.jpg" height="150" width="150" id="dj6" data-toggle="modal" data-target="#myModaldj6"></img> 
-              <h1>J-Nige</h1>
+              <h3>J-Nige</h3>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj7.jpg" height="150" width="150" id="dj7" data-toggle="modal" data-target="#myModaldj7"></img> 
-              <h1>Madsounds</h1>
+              <h3>Madsounds</h3>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj8.jpg" height="150" width="150" id="dj8" data-toggle="modal" data-target="#myModaldj8"></img> 
-              <h1>Mamey Disco</h1>
+              <h3>Mamey Disco</h3>
             </div> 
           </div>
           <br>
           <div class="row">
             <div class="col-md-3 offset-md-3"> 
               <img src ="/images/dj9.jpg" height="150" width="150" id="dj9" data-toggle="modal" data-target="#myModaldj9"></img> 
-              <h1>Vundacast</h1>
+              <h3>Vundacast</h3>
             </div> 
             <div class="col-md-3"> 
               <img src ="/images/dj10.jpg" height="150" width="150" id="dj10" data-toggle="modal" data-target="#myModaldj10"></img> 
-              <h1>Critfail</h1>
+              <h3>Critfail</h3>
             </div> 
           </div>
         </div>
