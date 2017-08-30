@@ -12,9 +12,11 @@
         <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
         <!-- Styles -->
+        <!--
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
-        <!--
+-->
+        
         <link href="/css/app.css" rel="stylesheet">
         <link href="/css/visualize.css" rel="stylesheet">
 -->
