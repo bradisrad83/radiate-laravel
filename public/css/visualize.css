@@ -38,6 +38,12 @@ h5 {
     text-shadow: 2px 2px 2px purple;
 }
 
+.dj-text {
+    color: green;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 2px 2px purple;
+}
+
 label {
     color: green;
     font-family: 'Rock Salt', cursive;
