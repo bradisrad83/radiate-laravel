@@ -50,6 +50,10 @@ label {
     text-shadow: 2px 2px 2px purple;
 }
 
+.dj-name {
+    font-size: 25px;
+}
+
 .contact-text {
     color: white;
     font-size: 20px;
