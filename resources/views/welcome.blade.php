@@ -64,15 +64,15 @@
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj2.jpg" height="150" width="150" id="dj2" data-toggle="modal" data-target="#myModaldj2"></img> 
-              <h1>Johnny Midnite</h1>
+              <h2>Johnny Midnite</h2>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj3.jpg" height="150" width="150" id="dj3" data-toggle="modal" data-target="#myModaldj3"></img> 
-              <h1>Pervus Pervolous</h1>
+              <h3>Pervus Pervolous</h3>
             </div> 
             <div class="col-sm-3"> 
               <img src ="/images/dj4.jpg" height="150" width="150" id="dj4" data-toggle="modal" data-target="#myModaldj4"></img> 
-              <h1>Special K</h1>
+              <h4>Special K</h4>
             </div>           
            <br>
           </div>
