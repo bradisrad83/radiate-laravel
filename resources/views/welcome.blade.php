@@ -120,81 +120,71 @@
               <h4 class="friday day">Friday</h4>
               <h4 class="saturday day">Saturday</h4>
             </div> 
-            <div class="col-sm-6" id="sunday"> 
-              <p><strong>Sunday (Rock)</strong></p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>CritFail (Gaming)</p>
-              <p>CritFail (Gaming)</p>
-              <p>CritFail (Gaming)</p>
-              <p>CritFail (Gaming)</p>
-              <p>CritFail (Gaming)</p>
-              <p>CritFail (Gaming)</p>
-              <p>CritFail (Gaming)</p>
-              <p>CritFail (Gaming)</p>
-          </div>
-          <div class="col-sm-6" id="monday"> 
+            <div class="col-sm-8" id="sunday"> 
+              <p><strong>Sunday</strong></p>
+              <p>12:00am Insomniac Bootleg Theater</p>
+              <p>1:00am Insomniac Bootleg Theater</p>
+              <p>2:00am Insomniac Bootleg Theater</p>
+              <p>3:00am Insomniac Bootleg Theater</p>
+              <p>8:00pm Critfail</p>
+              <p>9:00pm Critfail</p>
+              <p>10:00pm Critfail</p>
+              <p>11:00pm Critfail</p>
+            </div>
+            <div class="col-sm-8" id="monday"> 
               <p><strong>Monday</strong></p>
-              <p>The Vundacast (Pop Culture Talk Show)</p>
-              <p>The Vundacast (Pop Culture Talk Show)</p>
-              <p>The Vundacast (Pop Culture Talk Show)</p>
-              <p>The Vundacast (Pop Culture Talk Show)</p>
-              <p>Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
-              <p>Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
-              <p>MadSounds (Reggae/Dancehall)</p>
-              <p>MadSounds (Reggae/Dancehall)</p>
-          </div>
-          <div class="col-sm-6" id="tuesday"> 
-              <p><strong>Tuesday (Electronic)</strong></p>
-              <p>In the Year 2525 (Early Synth Pop/Experimental)</p>
-              <p>In the Year 2525 (Early Synth Pop/Experimental)</p>
-              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
-              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
-              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
-              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
-              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
-              <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
-          </div>
-            <div class="col-sm-6" id="friday"> 
-              <p><strong>Friday (Dance)</strong></p>
-              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
-              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
-              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
-              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
-              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
-              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
-              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
-              <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
-              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
-              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
-              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
-              <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
-              <p>Muisc is Fantasay (Italo Disco)</p>
-              <p>Muisc is Fantasay (Italo Disco)</p>
-              <p>Radiate Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
-              <p>Radiate Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
-              <p>Softer Than Satin (Disco/Mambo)</p>
-              <p>Softer Than Satin (Disco/Mambo)</p>
-              <p>The Witching Hour (Electro/Industrial/Witch House)</p>
-              <p>The Witching Hour (Electro/Industrial/Witch House)</p>
-          </div>
-            <div class="col-sm-6" id="thursday"> 
-              <p><strong>Thursday (Rock)</strong></p>
-              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
-              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
-              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
-              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
-              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
-              <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
-              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
-              <p>Nocturnal Emissions (Glam/Punk/Industrial)</p>
-          </div>
+              <p>4:00pm Vundacast</p>
+              <p>5:00pm Vundacast</p>
+              <p>6:00pm Vundacast</p>
+              <p>7:00pm Vundacast</p>
+              <p>9:00pm Radiate Legends: Prince</p>
+            </div>
+            <div class="col-sm-8" id="tuesday"> 
+                <p><strong>Tuesday</strong></p>
+                <p>1:00am Dead City Radio</p>
+                <p>2:00am Dead City Radio</p>
+                <p>3:00am Dead City Radio</p>
+                <p>6:00pm In The Year 2525</p> 
+                <p>7:00pm Coupled Data</p>
+                <p>8:00pm Coupled Data</p>
+                <p>9:00pm Coupled Data</p>
+            </div>
+            <div class="col-sm-8" id="wednesday"> 
+                <p><strong>Wednesday</strong></p>
+                <p>7:00pm HUMPday Show</p>
+                <p>8:00pm HUMPday Show</p>
+                <p>9:00pm HUMPday Show</p>
+            </div>
+            <div class="col-sm-8" id="thursday"> 
+              <p><strong>Thursday</strong></p>
+              <p>3:00pm Down By The Beach</p> 
+              <p>7:00pm Johnny Midnite's Rock N' Roll Radio</p>
+              <p>8:00pm Johnny Midnite's Rock N' Roll Radio</p>
+              <p>9:00pm Johnny Midnite's Rock N' Roll Radio</p>
+              <p>10:00pm Nocturnal Emissions</p>
+              <p>11:00pm Nocturnal Emissions</p>
+            </div>
+            <div class="col-sm-8" id="friday"> 
+              <p><strong>Friday</strong></p>
+              <p>12:00am Nocturnal Emissions</p> 
+              <p>1:00am Dead City Radio</p>
+              <p>2:00am Dead City Radio</p>
+              <p>3:00am Dead City Radio</p>
+              <p>5:00am Miami Roller Disco Party 2000</p>
+              <p>5:00pm Miami Roller Disco Party 2000</p>
+              <p>8:00pm Music is Fantasy</p> 
+              <p>9:00pm Radiate Legends: Prince</p> 
+              <p>10:00pm Softer Than Satin</p> 
+              <p>11:00pm Witching Hour</p>
+            </div>
+            <div class="col-sm-8" id="saturday"> 
+              <p><strong>Satuday</strong></p> 
+              <p>12:00pm Anti-Corporate Mid Day Punk Show</p> 
+              <p>8:00pm DreamEater</p>
+              <p>9:00pm DreamEater</p>
+              <p>10:00pm DreamEater</p>
+              <p>11:00pm DreamEater</p>
+            </div>
         </div> 
       </div>
       <div class="container">

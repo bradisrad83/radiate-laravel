@@ -24,13 +24,13 @@ var hideDivs = function() {
 };
 //function to slide all schedules out of the schedule dive on load and each time one is clicked so there is no overlapping
 var hideSchedule = function() {
-    monday.fadeOut(1000);
-    tuesday.fadeOut(1000);
-    wednesday.fadeOut(1000);
-    thursday.fadeOut(1000);
-    friday.fadeOut(1000);
-    saturday.fadeOut(1000);
-    sunday.fadeOut(1000);
+    monday.hide();
+    tuesday.hide();
+    wednesday.hide();
+    thursday.hide();
+    friday.hide();
+    saturday.hide();
+    sunday.hide();
 }
 
 
@@ -83,31 +83,31 @@ $(document).ready(function() {
     });
     $(".sunday").click(function() {
         hideSchedule();
-        sunday.slideToggle(3000);
+        sunday.slideToggle(2000);
     });
     $(".monday").click(function() {
         hideSchedule();
-        monday.slideToggle(3000);
+        monday.slideToggle(2000);
     });
     $(".tuesday").click(function() {
         hideSchedule();
-        tuesday.slideToggle(3000);
+        tuesday.slideToggle(2000);
     });
     $(".wednesday").click(function() {
         hideSchedule();
-        wednesday.slideToggle(3000);
+        wednesday.slideToggle(2000);
     });
     $(".thursday").click(function() {
         hideSchedule();
-        thursday.slideToggle(3000);
+        thursday.slideToggle(2000);
     });
     $(".friday").click(function() {
         hideSchedule();
-        friday.slideToggle(3000);
+        friday.slideToggle(2000);
     });
     $(".saturday").click(function() {
         hideSchedule();
-        saturday.slideToggle(3000);
+        saturday.slideToggle(2000);
     });
 
 });
