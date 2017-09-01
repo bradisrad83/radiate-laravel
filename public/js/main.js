@@ -12,7 +12,6 @@ var wednesday = $("#wednesday");
 var thursday = $("#thursday");
 var friday = $("#friday");
 var saturday = $("#saturday");
-var times = $("#times");
 var visualizer = $("#canvas");
 var counter = 2;
 

@@ -120,57 +120,6 @@
               <h4 class="friday day">Friday</h4>
               <h4 class="saturday day">Saturday</h4>
             </div> 
-           <div class="col-sm-2" id="times"> 
-              <p>Time (EST)</p>
-              <p>12:00am</p>
-              <p>12:30am</p>
-              <p>1:00am</p>
-              <p>1:30am</p>
-              <p>2:00am</p>
-              <p>2:30am</p>
-              <p>3:00am</p>
-              <p>3:30am</p>
-              <p>4:00am</p>
-              <p>4:30am</p>
-              <p>5:00am</p>
-              <p>5:30am</p>
-              <p>6:00am</p>
-              <p>6:30am</p>
-              <p>7:00am</p>
-              <p>7:30am</p>
-              <p>8:00am</p>
-              <p>8:30am</p>
-              <p>9:00am</p>
-              <p>9:30am</p>
-              <p>10:00am</p>
-              <p>10:30am</p>
-              <p>11:00am</p>
-              <p>11:30am</p>
-              <p>12:00pm</p>
-              <p>12:30pm</p>
-              <p>1:00pm</p>
-              <p>1:30pm</p>
-              <p>2:00pm</p>
-              <p>2:30pm</p>
-              <p>3:00pm</p>
-              <p>3:30pm</p>
-              <p>4:00pm</p>
-              <p>4:30pm</p>
-              <p>5:00pm</p>
-              <p>5:30pm</p>
-              <p>6:00pm</p>
-              <p>6:30pm</p>
-              <p>7:00pm</p>
-              <p>7:30pm</p>
-              <p>8:00pm</p>
-              <p>8:30pm</p>
-              <p>9:00pm</p>
-              <p>9:30pm</p>
-              <p>10:00pm</p>
-              <p>10:30pm</p>
-              <p>11:00pm</p>
-              <p>11:30pm</p>
-          </div>
             <div class="col-sm-6" id="sunday"> 
               <p><strong>Sunday (Rock)</strong></p>
               <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
@@ -181,38 +130,6 @@
               <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
               <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
               <p>Insomniac Bootleg Theatre (Concert Recordings)</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
               <p>CritFail (Gaming)</p>
               <p>CritFail (Gaming)</p>
               <p>CritFail (Gaming)</p>
@@ -224,93 +141,17 @@
           </div>
           <div class="col-sm-6" id="monday"> 
               <p><strong>Monday</strong></p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
               <p>The Vundacast (Pop Culture Talk Show)</p>
               <p>The Vundacast (Pop Culture Talk Show)</p>
               <p>The Vundacast (Pop Culture Talk Show)</p>
               <p>The Vundacast (Pop Culture Talk Show)</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
               <p>Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
               <p>Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
-              <p>-</p>
-              <p>-</p>
               <p>MadSounds (Reggae/Dancehall)</p>
               <p>MadSounds (Reggae/Dancehall)</p>
           </div>
           <div class="col-sm-6" id="tuesday"> 
               <p><strong>Tuesday (Electronic)</strong></p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
               <p>In the Year 2525 (Early Synth Pop/Experimental)</p>
               <p>In the Year 2525 (Early Synth Pop/Experimental)</p>
               <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
@@ -319,10 +160,6 @@
               <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
               <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
               <p>Coupled Data (IDM/Experimental Music/Sound Collage</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
           </div>
             <div class="col-sm-6" id="friday"> 
               <p><strong>Friday (Dance)</strong></p>
@@ -336,36 +173,8 @@
               <p>Dead City Radio (Experimental Sounds/Radio Drama)</p>
               <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
               <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
               <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
               <p>Miami Roller Disco Party 2000 (Latin/Freestyle/Electro/Dance Pop)</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
               <p>Muisc is Fantasay (Italo Disco)</p>
               <p>Muisc is Fantasay (Italo Disco)</p>
               <p>Radiate Legends Presents: Prince (Funk/Soul/R&B/Rock)</p>
@@ -377,46 +186,6 @@
           </div>
             <div class="col-sm-6" id="thursday"> 
               <p><strong>Thursday (Rock)</strong></p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
-              <p>-</p>
               <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
               <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
               <p>Johnny Midnite's Rock n' Roll Radio (Hard Rock/Hardcore)</p>
