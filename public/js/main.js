@@ -24,13 +24,13 @@ var hideDivs = function() {
 };
 //function to slide all schedules out of the schedule dive on load and each time one is clicked so there is no overlapping
 var hideSchedule = function() {
+    sunday.hide();
     monday.hide();
     tuesday.hide();
     wednesday.hide();
     thursday.hide();
     friday.hide();
     saturday.hide();
-    sunday.hide();
 }
 
 
@@ -83,7 +83,7 @@ $(document).ready(function() {
     });
     $(".sunday").click(function() {
         hideSchedule();
-        sunday.slideToggle(2000);
+        setTimeout(sunday.slideToggle(2000));
     });
     $(".monday").click(function() {
         hideSchedule();

@@ -206,6 +206,9 @@ footer {
     opacity: 0.6;
     overflow-y: scroll;
 }
+#djs::-webkit-scrollbar {
+    display: none;
+}
 #contact {
     position: fixed;
     top: 150px;
@@ -213,6 +216,9 @@ footer {
     width: calc(100% - 20%);
     z-index: 2;
     opacity: 0.8;
+}
+#contact::-webkit-scrollbar {
+    display: none;
 }
 #schedule {
     position: fixed;
@@ -223,6 +229,9 @@ footer {
     overflow-y: scroll;
     overflow-x: scroll;
 }
+#schedule::-webkit-scrollbar {
+    display: none;
+}
 #public_blog {
     position: fixed;
     top: 150px;
@@ -232,6 +241,9 @@ footer {
     overflow-y: scroll;
     border: 2px solid green;
     box-shadow: 1px 1px 10px purple;
+}
+#public_blog::-webkit-scrollbar {
+    display: none;
 }
 img {
     border: 2px solid green;
