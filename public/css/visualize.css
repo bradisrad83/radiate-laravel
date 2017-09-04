@@ -208,6 +208,8 @@ footer {
 }
 #djs::-webkit-scrollbar {
     display: none;
+    width: 0px;
+    background: transparent;
 }
 #contact {
     position: fixed;
@@ -219,6 +221,8 @@ footer {
 }
 #contact::-webkit-scrollbar {
     display: none;
+    width: 0px;
+    background: transparent;
 }
 #schedule {
     position: fixed;
@@ -231,6 +235,8 @@ footer {
 }
 #schedule::-webkit-scrollbar {
     display: none;
+    width: 0px;
+    background: transparent;
 }
 #public_blog {
     position: fixed;
@@ -244,9 +250,13 @@ footer {
 }
 #public_blog::-webkit-scrollbar {
     display: none;
+    width: 0px;
+    background: transparent;
 }
 ::-webkit-scrollbar {
     display: none;
+    width: 0px;
+    background: transparent;
 }
 img {
     border: 2px solid green;
