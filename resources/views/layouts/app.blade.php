@@ -16,6 +16,7 @@
         <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        @yield('css')
 
     <style>
         html, body {
