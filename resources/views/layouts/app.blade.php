@@ -166,6 +166,7 @@
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('js/dat.gui.min.js') }}"></script>
         <script src="{{ asset('js/visualize.js') }}"></script>
+        @yield('js')
     <!--
       <script src="/js/app.js"></script>
       <script src="/js/jquery.min.js"></script>
