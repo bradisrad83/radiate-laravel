@@ -11,9 +11,8 @@
     <title>Radiate</title>
 
     <!-- Styles -->
-
-        <link href="../public/css/app.css" rel="stylesheet">
-        <link href="../public/css/visualize.css" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         @yield('css')
@@ -145,7 +144,7 @@
         </nav>
     </footer>
       <!--Modals for radio and DJs-->
-      <div class="modal fade" id="myModalradio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myModalradio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header"></div>
@@ -167,11 +166,5 @@
         <script src="{{ asset('js/dat.gui.min.js') }}"></script>
         <script src="{{ asset('js/visualize.js') }}"></script>
         @yield('js')
-    <!--
-      <script src="/js/app.js"></script>
-      <script src="/js/jquery.min.js"></script>
-      <script src="/js/dat.gui.min.js"></script>
-      <script src="/js/visualize.js"></script>
-    -->
 </body>
 </html>
