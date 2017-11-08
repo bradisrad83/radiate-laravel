@@ -14,6 +14,7 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/visualize.css') }}" rel="stylesheet">
+        @yield('css')
         
         <!--
         <link href="/css/app.css" rel="stylesheet">
@@ -448,6 +449,7 @@
   <script src="{{ asset('js/dat.gui.min.js') }}"></script>
   <script src="{{ asset('js/visualize.js') }}"></script>
   <script src="{{ asset('js/main.js') }}"></script>
+  @yield('js')
 
       <!--
       <script src="/js/app.js"></script>
