@@ -10,12 +10,15 @@
 
     <title>Radiate</title>
 
-    <!-- Styles -->
+    <!-- Styles
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     @yield('css')
-
+    -->
+        <link href="/css/app.css" rel="stylesheet">
+        <link href="/css/visualize.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        @yield('css')
 
 
     <style>
@@ -161,11 +164,18 @@
         </div>
       </div>
 
-    <!-- Javascript Scripts -->
+    <!-- Javascript Scripts
         <script src="{{ asset('js/app.js') }}"></script>
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('js/dat.gui.min.js') }}"></script>
         <script src="{{ asset('js/visualize.js') }}"></script>
         @yield('js')
+    -->
+      <script src="/js/app.js"></script>
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/dat.gui.min.js"></script>
+      <script src="/js/visualize.js"></script>
+      <script src="/js/main.js"></script>
+      @yield('js')
 </body>
 </html>
