@@ -143,7 +143,7 @@
     <footer>
         <nav class="navbar-inverse navbar-default navbar-fixed-bottom">
           <div class="container" align="center">
-            <h5>© Radiate 2017 ©</h5>
+            <h5>© Radiate 2018 ©</h5>
           </div>
         </nav>
     </footer>
